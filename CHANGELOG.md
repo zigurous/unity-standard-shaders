@@ -5,11 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2021/04/13
+
+### Changed
+
+- Removed TODO from default compute shader
+
+### Fixed
+
+- Moved non-compiled assets outside of the Runtime directory
+
 ## [1.0.0] - 2021/03/21
 
-## Added
+### Added
 
-### Surface
+#### Surface
 
 - Decal
 - DetailTexture
@@ -24,14 +34,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - WorldReflection
 - WrappedDiffuse
 
-### Lit
+#### Lit
 
 - Diffuse
 - DiffuseSimple
 - DiffuseWithShadows
 - ShadowCasting
 
-### Unlit
+#### Unlit
 
 - Checkerboard
 - ShadowsOnly
@@ -42,7 +52,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Triplanar
 - WorldSpaceNormals
 
-### Default
+#### Default
 
 - Compute
 - ImageEffect
@@ -50,7 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Surface
 - Unlit
 
-### Include
+#### Include
 
 - Dither
 - Encode
