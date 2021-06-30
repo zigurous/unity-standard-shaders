@@ -1,4 +1,4 @@
-﻿Shader "Zigurous/Default/Unlit"
+﻿Shader "Hidden/Default/Unlit"
 {
     Properties
     {

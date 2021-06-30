@@ -1,4 +1,4 @@
-﻿Shader "Zigurous/Default/Surface"
+﻿Shader "Hidden/Default/Surface"
 {
     Properties
     {

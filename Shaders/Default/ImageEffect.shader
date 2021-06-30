@@ -1,4 +1,4 @@
-﻿Shader "Zigurous/Default/Image Effect"
+﻿Shader "Hidden/Default/Image Effect"
 {
     Properties
     {
