@@ -1,4 +1,4 @@
-﻿Shader "Zigurous/Lit/Cubemap"
+﻿Shader "Zigurous/Surface/Cubemap"
 {
     Properties
     {

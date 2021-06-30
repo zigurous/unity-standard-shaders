@@ -1,4 +1,4 @@
-﻿Shader "Zigurous/Lit/Shadow Casting"
+﻿Shader "Zigurous/Surface/Shadow Casting"
 {
     SubShader
     {
