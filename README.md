@@ -18,6 +18,8 @@ To load a package from a Git URL:
 
 ### Surface
 
+- Checkerboard
+- Cubemap
 - Decal
 - DetailTexture
 - Diffuse
@@ -26,17 +28,11 @@ To load a package from a Git URL:
 - Ramp
 - RimLighting
 - SingleColor
+- ShadowCasting
 - Sliced
 - SpecularSimple
 - WorldReflection
 - WrappedDiffuse
-
-### Lit
-
-- Diffuse
-- DiffuseSimple
-- DiffuseWithShadows
-- ShadowCasting
 
 ### Unlit
 
