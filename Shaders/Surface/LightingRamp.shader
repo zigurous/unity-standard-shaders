@@ -1,20 +1,22 @@
-﻿Shader "Zigurous/Surface/Ramp"
+﻿Shader "Zigurous/Surface/Lighting Ramp"
 {
     Properties
     {
+        _Color ("Color", Color) = (1,1,1,1)
+        _MainTex ("Albedo (RGB)", 2D) = "white" {}
+        _BumpMap ("Normal Map", 2D) = "bump" {}
         _Ramp ("Ramp", 2D) = "white" {}
-        _MainTex ("Texture", 2D) = "white" {}
-        _BumpMap ("Bumpmap", 2D) = "bump" {}
-        _Tint ("Color", Color) = (1, 1, 1, 1)
     }
 
     SubShader
     {
         Tags { "RenderType"="Opaque" }
+        LOD 200
 
         CGPROGRAM
 
         #pragma surface surf Ramp
+        #pragma target 3.0
 
         sampler2D _Ramp;
 
@@ -29,20 +31,23 @@
             return c;
         }
 
+        sampler2D _MainTex;
+        sampler2D _BumpMap;
+
         struct Input
         {
             float2 uv_MainTex;
             float2 uv_BumpMap;
         };
 
-        sampler2D _MainTex;
-        sampler2D _BumpMap;
-        fixed3 _Tint;
+        fixed4 _Color;
 
         void surf (Input IN, inout SurfaceOutput o)
         {
-            o.Albedo = tex2D(_MainTex, IN.uv_MainTex).rgb * _Tint;
+            fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
+            o.Albedo = c.rgb;
             o.Normal = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
+            o.Alpha = c.a;
         }
 
         ENDCG
