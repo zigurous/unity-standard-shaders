@@ -23,12 +23,12 @@ To load a package from a Git URL:
 - Decal
 - DetailTexture
 - Diffuse
+- LightingRamp
 - LinearFog
 - NormalExtrusion
-- Ramp
 - RimLighting
-- SingleColor
 - ShadowCasting
+- SingleColor
 - Sliced
 - SpecularSimple
 - WorldReflection
