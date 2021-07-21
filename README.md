@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/github-repo-blue?logo=github)](https://github.com/zigurous/unity-standard-shaders) [![](https://img.shields.io/github/package-json/v/zigurous/unity-standard-shaders)](https://github.com/zigurous/unity-standard-shaders/releases) [![](https://img.shields.io/github/license/zigurous/unity-standard-shaders)](https://github.com/zigurous/unity-standard-shaders/blob/main/LICENSE.md)
 
-The Standard Shaders package contains general-purpose shaders for Unity projects including surface, lit, and unlit shaders.
+The Standard Shaders package contains general-purpose shaders for Unity projects.
 
 ## Installation
 
