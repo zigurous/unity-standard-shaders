@@ -4,24 +4,6 @@
 
 The Standard Shaders package contains general-purpose shaders for Unity projects.
 
-## Installation
-
-Use the Unity [Package Manager](https://docs.unity3d.com/Manual/upm-ui.html) to install the Standard Shaders package.
-
-1. Open the Package Manager in `Window > Package Manager`
-2. Click the add (`+`) button in the status bar
-3. Select `Add package from git URL` from the add menu
-4. Enter the following Git URL in the text box and click Add:
-
-```http
-https://github.com/zigurous/unity-standard-shaders.git
-```
-
-For more information on the Package Manager and installing packages, see the following pages:
-
-- [Unity's Package Manager](https://docs.unity3d.com/Manual/Packages.html)
-- [Installing from a Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
-
 ## Shaders
 
 ### Surface
@@ -59,3 +41,21 @@ For more information on the Package Manager and installing packages, see the fol
 - Encode
 - Jitter
 - Pi
+
+## Installation
+
+Use the Unity [Package Manager](https://docs.unity3d.com/Manual/upm-ui.html) to install the Standard Shaders package.
+
+1. Open the Package Manager in `Window > Package Manager`
+2. Click the add (`+`) button in the status bar
+3. Select `Add package from git URL` from the add menu
+4. Enter the following Git URL in the text box and click Add:
+
+```http
+https://github.com/zigurous/unity-standard-shaders.git
+```
+
+For more information on the Package Manager and installing packages, see the following pages:
+
+- [Unity's Package Manager](https://docs.unity3d.com/Manual/Packages.html)
+- [Installing from a Git URL](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
