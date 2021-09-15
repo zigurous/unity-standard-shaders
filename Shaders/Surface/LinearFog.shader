@@ -31,7 +31,7 @@
             UNITY_INITIALIZE_OUTPUT(Input, data);
             float pos = length(UnityObjectToViewPos(v.vertex).xyz);
             float diff = unity_FogEnd.x - unity_FogStart.x;
-            float invDiff = 1.0f / diff;
+            float invDiff = 1f / diff;
             data.fog = clamp((unity_FogEnd.x - pos) * invDiff, 0.0, 1.0);
         }
 
