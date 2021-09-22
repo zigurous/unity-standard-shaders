@@ -4,14 +4,15 @@
   "displayName": "Standard Shaders",
   "description": "The Standard Shaders package contains general-purpose shaders for Unity projects. The package contains over 25 shaders of varying types that can be used in virtually any project.",
   "unity": "2019.4",
+  "repository": "https://github.com/zigurous/unity-standard-shaders",
   "keywords": [
     "shaders",
     "surface",
     "vertex",
     "fragment",
+    "standard",
     "unlit"
   ],
-  "repository": "https://github.com/zigurous/unity-standard-shaders",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@zigurous"
   },
