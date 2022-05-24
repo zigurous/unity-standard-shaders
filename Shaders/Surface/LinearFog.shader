@@ -31,14 +31,14 @@
             UNITY_INITIALIZE_OUTPUT(Input, data);
             float pos = length(UnityObjectToViewPos(v.vertex).xyz);
             float diff = unity_FogEnd.x - unity_FogStart.x;
-            float invDiff = 1f / diff;
+            float invDiff = 1.0 / diff;
             data.fog = clamp((unity_FogEnd.x - pos) * invDiff, 0.0, 1.0);
         }
 
         void fogcolor (Input IN, SurfaceOutput o, inout fixed4 color)
         {
             #ifdef UNITY_PASS_FORWARDADD
-            UNITY_APPLY_FOG_COLOR(IN.fog, color, float4(0, 0, 0, 0));
+            UNITY_APPLY_FOG_COLOR(IN.fog, color, float4(0,0,0,0));
             #else
             UNITY_APPLY_FOG_COLOR(IN.fog, color, unity_FogColor);
             #endif
